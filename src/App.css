@@ -1,0 +1,74 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  height: 90vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(https://img.freepik.com/free-vector/realistic-hexagonal-background_79603-1646.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1715126400&semt=ais);
+}
+
+
+h1{
+  margin: 3px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: lightgray;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  align-items: center;
+  color: white;
+  position: relative;
+  left: 100px;
+}
+
+.result button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 100px;
+}
+
+.result button:hover {
+  
+  background-color: #4545a0;
+ 
+
+}
